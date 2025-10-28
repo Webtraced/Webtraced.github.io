@@ -5,41 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webtrace</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="emoji">🚀</div>
-            <h1 class="main-title">Webtrace</h1>
-            <div class="subtitle">API key Расценки</div>
-        </header>
-        
-        <main>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3>BREACHka</h3>
-                    <div class="price">20$ / 20000 Запросов</div>
-                </div>
-                <div class="pricing-card">
-                    <h3>UserBox</h3>
-                    <div class="price">30$ / 60000₽ Баланс</div>
-                </div>
-                <div class="pricing-card">
-                    <h3>DepSearch</h3>
-                    <div class="price">15$ / Ниже оригинального</div>
-                </div>
-                <div class="pricing-card">
-                    <h3>Atlas</h3>
-                    <div class="price">15$ / Ниже оригинального</div>
-                </div>
-            </div>
-        </main>
-        
-        <footer>
-            <button id="try-button" class="try-button">Попробовать бесплатно</button>
-        </footer>
-    </div>
+    <div id="stars"></div>
+    <div id="nebula"></div>
     
+    <div class="page">
+        <div class="top">
+            <div class="icon">🚀</div>
+            <div class="title">WEBTRACE</div>
+        </div>
+        
+        <div class="middle">
+            <div class="buttons">
+                <div class="btn price-btn" id="showPrice">Прайс</div>
+                <div class="btn try-btn" id="tryFree">Попробовать бесплатно</div>
+            </div>
+            
+            <div class="prices hidden" id="priceBlock">
+                <div class="price-title">API key Расценки</div>
+                
+                <div class="price-items">
+                    <div class="price-item" data-url="https://t.me/systrojan">
+                        <div class="p-name">BREACHka</div>
+                        <div class="p-cost">20$ / 20000 Запросов</div>
+                    </div>
+                    
+                    <div class="price-item" data-url="https://t.me/systrojan">
+                        <div class="p-name">UserBox</div>
+                        <div class="p-cost">30$ / 60000₽ Баланс</div>
+                    </div>
+                    
+                    <div class="price-item" data-url="https://t.me/systrojan">
+                        <div class="p-name">DepSearch</div>
+                        <div class="p-cost">15$ / Ниже оригинального</div>
+                    </div>
+                    
+                    <div class="price-item" data-url="https://t.me/systrojan">
+                        <div class="p-name">Atlas</div>
+                        <div class="p-cost">15$ / Ниже оригинального</div>
+                    </div>
+                </div>
+                
+                <div class="back-btn" id="goBack">Назад</div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
-</html>
+</html><!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webtrace</title>
+    <link rel="stylesheet" href="styles.css">
