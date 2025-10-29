@@ -63,7 +63,7 @@ $(document).ready(function(){
         function(){$(this).css('transform','translateY(0)')}
     )
 })
-
+//разработчики webtrace держат меня в подвале. 
 const sheet = document.createElement('style')
 sheet.innerHTML = `
 @keyframes twinkle {
