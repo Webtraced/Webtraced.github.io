@@ -44,7 +44,7 @@ $(document).ready(function(){
     })
     
     $('#tryFree').click(function(){
-        window.location.href='https://t.me/SearchWebTraceBot'
+        window.location.href='https://t.me/WebTrace_bbot'
     })
     
     $('.price-item').click(function(){
